@@ -109,6 +109,6 @@ input, select, button {
    Below 600px, switch .queue-form from a row to a column (flex-direction: column;) */
 @media (max-width: 600px) {
   .queue-form {
-    Add flex-direction: column; here
+    flex-direction: column;
   }
 }

@@ -29,6 +29,7 @@ form.addEventListener('submit', function (event) {
 
   const codeText = document.createElement('p');
   codeText.classList.add('code');
+
   // TODO 5: Create cards with textContent
   // Safely set codeText's text using .textContent (never .innerHTML!):
   // codeText.textContent = ???;
@@ -48,7 +49,7 @@ form.addEventListener('submit', function (event) {
   // Add a click listener to servedBtn that calls card.remove();
   // servedBtn.addEventListener('click', function () { ... });
   servedBtn.addEventListener('click', function () {
-  card.remove();
+    card.remove();
 });
 
 
